@@ -14,7 +14,6 @@ public class FirstPageSteps {
 	public void user_clicks_on_the_todays_paper_link() {
 		CoreFunctions.click(NYHomePage.todaysPaper(), "click on Today's Paper link");
 	}
-	
 
 	@Then("user lands on The Todays Paper section")
 	public void user_lands_on_the_front_page() {
