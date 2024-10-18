@@ -2,13 +2,9 @@
 
 # NY Times assignment
 
-### Submitted By :-
-#### Astha Bhatt
-#### Date of submission : 17-10-2024
-
 ---
 
-#Prerequisites
+**#Prerequisites**
 Java Development Kit (JDK) 8 or higher
 
 Apache Maven
@@ -17,7 +13,7 @@ Selenium WebDriver
 
 Cucumber plugin
 
-> Features
+**#Features**
 
 - Cross-Browser Testing: Supports Chrome, Firefox, Safari, and Edge.
 
@@ -31,7 +27,7 @@ Cucumber plugin
 
 ---
 
-## Setup Instructions
+**#Setup Instructions**
 
 - Clone the repository:
 
