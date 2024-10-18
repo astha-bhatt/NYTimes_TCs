@@ -4,7 +4,8 @@
 
 ---
 
-**#Prerequisites**
+**Prerequisites**
+
 Java Development Kit (JDK) 8 or higher
 
 Apache Maven
@@ -13,7 +14,7 @@ Selenium WebDriver
 
 Cucumber plugin
 
-**#Features**
+**Features**
 
 - Cross-Browser Testing: Supports Chrome, Firefox, Safari, and Edge.
 
@@ -27,7 +28,7 @@ Cucumber plugin
 
 ---
 
-**#Setup Instructions**
+**Setup Instructions**
 
 - Clone the repository:
 
@@ -45,15 +46,15 @@ Navigate to the project directory and run:
 
 mvn clean install
 
-- Configure Browser Settings:
+**Configure Browser Settings:**
 
 Browser to be used can be specified in the src/test/resources/browser-config.properties file.
 
-- To run all tests:
+**To run all tests:**
 
 mvn test
 
-> Path For important files :-
+**Path For important files :-**
 
 - configuration.properties : /nytimes-sample/src/test/resources/browser-config.properties
 
