@@ -71,3 +71,20 @@ mvn test
 
 - Today's Paper : Verify user routes to Today's Paper page.
 
+**Project Structure**
+
+- src: Source code for test scripts, this package consists of below given structure.
+
+- src/main/java: Consists of all the packages of browser handling, Core Functions which can be reused, Object repository, utils.
+
+- src/main/resources
+
+- src/test/java: Application Hooks file, TestRunner file, Test classes (having Step Definitions), test utils, Feature Files (having the test cases).
+
+- src/test/resources: Test Data ,  Config files.
+
+- test-output: Directory containing test output results
+
+- .gitignore: Git ignore file.
+
+- pom.xml: Maven project file for managing dependencies.
