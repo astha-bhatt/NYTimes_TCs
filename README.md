@@ -12,6 +12,8 @@ Apache Maven
 
 Selenium WebDriver
 
+Eclipse or any other IDE
+
 Cucumber plugin
 
 **Features**
@@ -27,14 +29,14 @@ Cucumber plugin
 - Clean Code Structure: Adheres to OOPs.
 
 ---
-**Project Structure**
+
 
 **Setup Instructions**
 
 - Clone the repository:
 
 	'''bash
-	git clone<repository-url>
+	git clone<https://github.com/astha-bhatt/NYTimes_TCs.git>
 
 
 - Configure WebDriver:
@@ -60,6 +62,17 @@ mvn test
 - configuration.properties : /nytimes-sample/src/test/resources/browser-config.properties
 
 - excel test data file : /nytimes-sample/src/test/resources/TestData.xlsx
+
+**Running Tests on different browser**
+  
+- \src\test\resources\browser-config.properties
+
+- Change the browser type to below in the above mentioned config file for running on different browser:
+
+- Chrome(Currently set)
+- Edge
+- Firefox
+
 
 **Test Case Information :-**
 
