@@ -41,13 +41,13 @@ Cucumber plugin
 
 - Configure WebDriver:
 
-Ensure you have the appropriate WebDriver executables (e.g., chromedriver, geckodriver, edgedriver) in your system's PATH
+ Ensure you have the appropriate WebDriver executables (e.g., chromedriver, geckodriver, edgedriver) in your system's PATH
 
 - Install Maven dependencies:
 
-Navigate to the project directory and run:
+ Navigate to the project directory and run:
 
-mvn clean install
+ mvn clean install
 
 **Configure Browser Settings:**
 
@@ -55,7 +55,7 @@ Browser to be used can be specified in the src/test/resources/browser-config.pro
 
 **To run all tests:**
 
-mvn test
+ mvn test
 
 **Path For important files :-**
 
