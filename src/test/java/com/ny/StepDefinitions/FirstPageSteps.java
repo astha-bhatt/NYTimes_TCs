@@ -2,13 +2,14 @@ package com.ny.StepDefinitions;
 
 import org.testng.Assert;
 
+import com.ny.BrowserInstance.BrowserHandle;
 import com.ny.CoreFunctions.CoreFunctions;
 import com.ny.PageObjects.NYHomePage;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class FirstPageSteps {
+public class FirstPageSteps extends BrowserHandle {
 	
 	@When("user clicks on The Todays Paper link")
 	public void user_clicks_on_the_todays_paper_link() {
